@@ -2,7 +2,7 @@ server:
   port: 8080
   data:
     mongodb:
-      uri: mongodb://localhost:27017/bankaccountdbg
+      uri: mongodb://localhost:27017/bankaccountdb
 #eureka:
 #  instance:
 #    hostname: localhost
