@@ -3,11 +3,11 @@ server:
   data:
     mongodb:
       uri: mongodb://localhost:27017/bankaccountdb
-#eureka:
-#  instance:
-#    hostname: localhost
-#  client:
-#    registryWithEureka: false
-#    fetchRegistry: false
-#    serviceUrl:
-#     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+microservices:
+  person:
+    base-url: http://localhost:8083    
+    base-path: /api/v1
+    end-point:      
+      person: /person
+      person-type: /person-type
