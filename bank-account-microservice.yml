@@ -16,8 +16,3 @@ microservices:
     end-point:
       client: ${microservices.client.base-path}/clients
       plan: ${microservices.client.base-path}/plans
-  bank-account:
-    base-url: http://localhost:8080
-    base-path: /api/v1
-    end-point:
-      bank-account: ${microservices.bank-account.base-path}/bank-accounts
