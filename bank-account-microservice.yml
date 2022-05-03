@@ -7,7 +7,7 @@ server:
       host: localhost
       port: 27017
       database: banktransactiondb
-      uri: mongodb://localhost:27017/bankaccountdb
+      #uri: mongodb://localhost:27017/bankaccountdb
 
 microservices:
   client:
