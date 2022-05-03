@@ -1,7 +1,8 @@
 
 server:
   port: 8083
-  
+  error:
+    include-message: always
   data:
     mongodb:
       uri: mongodb://localhost:27017/bd_person
