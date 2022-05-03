@@ -4,9 +4,10 @@ server:
     include-message: always
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: banktransactiondb
+      uri: mongodb+srv://nttdata:vZdLBB0KYwV2eU5C@bankaccuntdb.cypc0.mongodb.net/bankaccuntdb?retryWrites=true&w=majority
+      #host: localhost
+      #port: 27017
+      #database: banktransactiondb
       #uri: mongodb://localhost:27017/bankaccountdb
 
 microservices:
