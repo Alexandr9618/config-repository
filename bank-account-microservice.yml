@@ -20,5 +20,5 @@ microservices:
     base-url: http://localhost:8085
     base-path: /api/v1
     end-point:
-      product: ${microservices.client.base-path}/products
-      category: ${microservices.client.base-path}/categories   
+      product: ${microservices.product.base-path}/products
+      category: ${microservices.product.base-path}/categories   
