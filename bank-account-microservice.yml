@@ -23,7 +23,7 @@ microservices:
       product: ${microservices.product.base-path}/products
       category: ${microservices.product.base-path}/categories   
   transaction:
-    base-url: http://localhost:8082
+    base-url: http://localhost:8081
     base-path: /api/v1
     end-point:
       credit: ${microservices.transaction.base-path}/credits
