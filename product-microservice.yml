@@ -4,10 +4,7 @@ server:
     include-message: always
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: productdb
-      #uri: mongodb://localhost:27017/productdb
+      uri: mongodb+srv://administrator:9exM6fWPUpdq7xFI@nttdata.m70zc.mongodb.net/msproduct
       
 eureka:
   instance:
