@@ -5,11 +5,7 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: banktransactiondb
-      #username: xyz
-      #password: xyz
+      uri: mongodb+srv://administrator:9exM6fWPUpdq7xFI@nttdata.m70zc.mongodb.net/msbanktransation
 eureka:
   instance:
     hostname: localhost
