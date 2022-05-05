@@ -6,3 +6,10 @@ server:
   data:
     mongodb:
       uri: mongodb://localhost:27017/bd_person
+      
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:9091/eureka/      
