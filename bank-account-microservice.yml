@@ -4,9 +4,10 @@ server:
     include-message: always
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: banktransactiondb
+      uri: mongodb+srv://administrator:9exM6fWPUpdq7xFI@nttdata.m70zc.mongodb.net/msbankaccount
+      #host: localhost
+      #port: 27017
+      #database: banktransactiondb
       #uri: mongodb://localhost:27017/bankaccountdb
 eureka:
   instance:
