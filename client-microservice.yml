@@ -5,7 +5,7 @@ server:
     include-message: always
   data:
     mongodb:
-      uri: mongodb://localhost:27017/bd_person
+      uri: mongodb+srv://administrator:9exM6fWPUpdq7xFI@nttdata.m70zc.mongodb.net/msclientdb
       
 eureka:
   instance:
