@@ -7,9 +7,4 @@ server:
     mongodb:
       uri: mongodb+srv://administrator:9exM6fWPUpdq7xFI@nttdata.m70zc.mongodb.net/msclientdb
       
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:9091/eureka/      
+     
